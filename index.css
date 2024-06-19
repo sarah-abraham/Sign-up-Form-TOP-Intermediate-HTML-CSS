@@ -1,0 +1,27 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(./assets/fonts/Norse-Bold.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+}
+
+.bg-img{
+    width: auto;
+    height: 100vh;
+}
+
+.image-container{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    background-color: black;
+}
